@@ -82,12 +82,8 @@ app.post("/delete", function (req, res) {
   })
   res.redirect("/");
 });
-app.listen(3000, function () {
-  console.log("Server started on port 3000");
-});
-/*
- res.render("post", {
-        postTitle: post.title,
-        postBody: post.body
-      });
-      */
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
