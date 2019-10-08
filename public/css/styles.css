@@ -14,6 +14,9 @@
 .navbar-nav li a:hover {
   color: #1abc9c !important;
 }
+body{
+  height: fit-content;
+}
 
 .footer-padding {
   padding-bottom: 60px;
