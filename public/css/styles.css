@@ -15,7 +15,7 @@
   color: #1abc9c !important;
 }
 body{
-  height: fit-content;
+  height: 100%;
 }
 
 .footer-padding {
@@ -23,7 +23,7 @@ body{
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   text-align: center;
   bottom: 0;
   width: 100%;
